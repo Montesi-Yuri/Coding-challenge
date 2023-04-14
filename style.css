@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:auto;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.content-container{
+    width: 1000px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+/* Sfondo semi-trasparente */
+.quadrato{
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    height: 900px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    margin-left: 360px;
+    margin-right: 360px;
+    border-radius: 20px;
+}
+
+/* Intestazione */
+.header{
+    text-align: center;
+}
+
+header > img{
+    width: 250px;
+    height: 120px;
+}
+
+header> h1{
+    color: rgb(00, 221, 00);
+    font-family: sans-serif;
+}
+
+/* Pulsanti */
+.pulsanti{
+    background-color: rgb(00, 221, 00);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav > input{
+    margin-right: 5px;
+}
+
+/* Elenco monopattini */
+main > h2{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+main > p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.piena-carica{
+    background-color: rgb(0, 190, 0);
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+}
+.metà-carica{
+    background-color: rgb(231, 180, 84);
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.carica-bassa{
+    background-color: rgba(255, 0, 0, 0.5);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
